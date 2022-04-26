@@ -2,10 +2,9 @@
 Photo Generator is a front end website that generates a random photo from Unsplash everytime the page reloads
 
 ## Usage
-### Clone the repo
-1. Use config_sample.js and paste your Unsplash API keys
+### 1. Clone the repo
 
-#### Get your own API key
+#### 2. Get your own API key to paste into config_sample.js
 1. Create an Unsplash developer account at [Unsplash](https://unsplash.com/developers)
 2. Create a new application with your desired title i.e Random Photo Generator 
 3. Copy your access key and paste it into the config_sample.js where it says 'YOUR API TOKEN'
