@@ -1,0 +1,4 @@
+var configKey = {
+	MY_API_TOKEN : 'YOUR API TOKEN',
+	SECRET_API_KEY : 'YOUR SECRET API KEY',
+}

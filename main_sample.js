@@ -1,4 +1,4 @@
-var token = config.MY_API_TOKEN;
+var token = configKey.MY_API_TOKEN;
 
 let photoGenerator = `https://api.unsplash.com/photos/random/?client_id=${token}`;
 
