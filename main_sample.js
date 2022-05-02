@@ -11,15 +11,15 @@ let likeCount = 0;
 const getPhotoForDislike = function(){
 	dislikeCount += 1
 	dislikeCounter.innerText = dislikeCount
-	console.log(dislikeCount)
+	// console.log(dislikeCount)
 
 	fetch(photoGenerator)
 		.then(res => res.json()) // parse response as JSON
 		.then(data => {
-		// console.log(data)	
+		console.log(data)	
 		image.src = data.urls.regular
 		photographer.innerText = data.user.name
-		photographer.setAttribute("href", data.user.portfolio)
+		photographer.setAttribute("href", data.user.portfolio_url)
 		})
 		.catch(err => {
 			console.log(`error ${err}`)
@@ -29,12 +29,12 @@ const getPhotoForDislike = function(){
 const getPhotoForLike = function(){
 	likeCount += 1
 	likeCounter.innerText = likeCount
-	console.log(likeCount)
+	// console.log(likeCount)
 
 	fetch(photoGenerator)
 		.then(res => res.json()) // parse response as JSON
 		.then(data => {
-		// console.log(data)	
+		console.log(data)	
 		image.src = data.urls.regular
 		photographer.innerText = data.user.name
 		photographer.setAttribute("href", data.user.portfolio)
@@ -52,7 +52,7 @@ const getPhoto = function(){
 		// console.log(data)	
 		image.src = data.urls.regular
 		photographer.innerText = data.user.name
-		photographer.setAttribute("href", data.user.portfolio)
+		photographer.setAttribute("href", data.user.links.html)
 		})
 		.catch(err => {
 			console.log(`error ${err}`)
