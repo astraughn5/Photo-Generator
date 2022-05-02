@@ -22,7 +22,6 @@
   
   body {
 	margin: 0;
-	background-color: lightgrey;
   }
   
   /**
@@ -31,7 +30,7 @@
   
   main {
 	display: block;
-	
+
   }
   
   /**
@@ -39,23 +38,7 @@
    * `article` contexts in Chrome, Firefox, and Safari.
    */
   
-  h1 {
-	font-size: 2em;
-	margin: 0.67em 0;
-  }
-  img {
-	height: 500px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	
-  }
-  body main section{
-	  display: flex;
-	  align-items: center;
-	  justify-content: center;
-	  height: 100%;
-  }
+  
   
   /* Grouping content
 	 ========================================================================== */
