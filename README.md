@@ -1,18 +1,9 @@
-# Photo-Generator
-Photo Generator is a front end website that generates a random photo from Unsplash everytime the page reloads
+# Like or Dislike Photos.
+<p align = 'left'>
+Welcome to your recipe generator. This small application was built using the Edamam API, JavaScript, HTML, and CSS. The idea came from my roommates when they mentioned being able to search an ingredient and recieve a list of recipes to go through. 
+</p>
 
-## Usage
-### 1. Clone the repo
+## Functionality
+Search for one ingredient to get a list of 20 recipes. Click next to view the next recipe and previous to go back. If you are vegetarian, make sure you check the vegetarian box to only receive your desired recipes. 
 
-#### 2. Get your own API key to paste into config_sample.js
-1. Create an Unsplash developer account at [Unsplash](https://unsplash.com/developers)
-2. Create a new application with your desired title i.e Random Photo Generator 
-3. Copy your access key and paste it into the config_sample.js where it says 'YOUR API TOKEN'
-4. Copy your secret key and paste it where it says 'YOUR SECRET API KEY'
-``` javascript
-var configKey = {
-	MY_API_TOKEN : 'YOUR API TOKEN',
-	SECRET_API_KEY : 'YOUR SECRET API KEY',
-}
-```
-5. Save your file and main_sample.js will assign a token variable to the token in config_sample.js
+![alt text](https://github.com/astraughn5/recipe-generator/blob/main/images/recipe_generator_thumbnail.png)
