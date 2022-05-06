@@ -9,7 +9,7 @@ A random photo will automatically load. To see another, like or dislike it. As y
 ### Caution
 Since this is a public API and free, I only have so many data requests per month. If the site does not retrieve a photo, this is most likely the case. To create your own API key, see below for details.
 
-![alt text](https://github.com/astraughn5/Photo-Generator/blob/public/imgs/photo_generator_thumnail.png)
+![alt text](https://github.com/astraughn5/Photo-Generator/blob/main/imgs/photo_generator_thumnail.png)
 
 
 ## Creating your own Unsplash Photo Generator
