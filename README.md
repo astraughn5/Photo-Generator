@@ -12,6 +12,13 @@ Since this is a public API and free, I only have so many data requests per month
 
 ![alt text](https://github.com/astraughn5/Photo-Generator/blob/main/imgs/photo_generator_thumnail.png)
 
+## Optimizations
+
+### Other Project Examples
+1. [Recipe Generator](https://github.com/astraughn5/recipe-generator)
+2. [Drawing Project](https://github.com/astraughn5/drawing_project)
+3. [Hank Co](https://github.com/astraughn5/hankco)
+
 
 ## Creating your own Unsplash Photo Generator
 ### 1. Clone the repo
